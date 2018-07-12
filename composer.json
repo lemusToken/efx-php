@@ -1,0 +1,20 @@
+{
+    "name": "efx/core",
+    "license": "MIT",
+    "type": "project",
+    "description": "Framework",
+    "autoload": {
+        "psr-4": {
+            "Efx\\":"efx"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
